@@ -40,6 +40,8 @@ class StyleChecker
       StyleGuide::CoffeeScript
     when /.+\.js\z/
       StyleGuide::JavaScript
+    when /.+\.cpp\z/
+      StyleGuide::Cpp
     else
       StyleGuide::Unsupported
     end

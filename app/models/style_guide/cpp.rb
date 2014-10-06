@@ -1,5 +1,5 @@
 module StyleGuide
-  class JavaScript < Base
+  class Cpp < Base
     def violations_in_file(file)
       # TODO: cpplint in a gem is prefered
       cpplint_path = Rails.root.join('bin','cpplint-0.0.3','cpplint','cpplint.py')
